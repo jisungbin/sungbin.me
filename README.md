@@ -1,2 +1,0 @@
-# sungbin.me
-Hello World!
