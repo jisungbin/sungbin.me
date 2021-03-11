@@ -239,7 +239,6 @@ a {
 }
 
 a:hover {
-    text-decoration: line-through;
     color: #ff594f;
 }
 
@@ -957,7 +956,6 @@ ul {
 
 .overlay-menu ul li.active > a, .overlay-menu ul li a:hover {
     color: #ff594f;
-    text-decoration: line-through;
 }
 
 .fs-button {
