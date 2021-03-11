@@ -313,7 +313,6 @@ hr {
 .md-btn:hover {
     background-color: #ebebeb;
     color: #000;
-    text-decoration: line-through;
 }
 
 .md-btn[disabled] {
