@@ -309,7 +309,6 @@ hr {
     font-family: 'Noto Sans KR', sans-serif;
     line-height: 1;
     letter-spacing: 1px;
-    text-transform: uppercase;
 }
 
 .md-btn:hover {
@@ -507,21 +506,18 @@ select2::-webkit-input-placeholder, textarea::-webkit-input-placeholder,
 select::-webkit-input-placeholder,
 product__number:not([type="text"])::-webkit-input-placeholder {
     color: #c0c0c0;
-    text-transform: capitalize;
 }
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"])::-moz-placeholder,
 select2::-moz-placeholder, textarea::-moz-placeholder, select::-moz-placeholder,
 product__number:not([type="text"])::-moz-placeholder {
     color: #c0c0c0;
-    text-transform: capitalize;
 }
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"]):-moz-placeholder,
 select2:-moz-placeholder, textarea:-moz-placeholder, select:-moz-placeholder,
 product__number:not([type="text"]):-moz-placeholder {
     color: #c0c0c0;
-    text-transform: capitalize;
 }
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"]):-ms-input-placeholder,
@@ -529,7 +525,6 @@ select2:-ms-input-placeholder, textarea:-ms-input-placeholder,
 select:-ms-input-placeholder,
 product__number:not([type="text"]):-ms-input-placeholder {
     color: #c0c0c0;
-    text-transform: capitalize;
 }
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"])[disabled],
@@ -708,10 +703,6 @@ ul {
 /* 4. button
 --------------------------------------------------------------------------------*/
 
-.btn {
-    text-transform: uppercase;
-}
-
 .btn-custom {
     position: relative;
     padding-right: 50px;
@@ -739,7 +730,6 @@ ul {
 .about__title {
     font-size: 25px;
     font-weight: bold;
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -780,7 +770,6 @@ ul {
 .contact__title {
     font-size: 16px;
     font-weight: 600;
-    text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 0;
     margin-bottom: 5px;
@@ -801,7 +790,6 @@ ul {
 .form__label {
     display: block;
     font-family: 'Noto Sans KR', sans-serif;
-    text-transform: capitalize;
     color: #333;
     margin-bottom: 10px;
 }
@@ -938,7 +926,6 @@ ul {
     font-weight: 600;
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
     padding: 5px 0;
     transition: all .2s linear;
 }
@@ -1740,7 +1727,6 @@ ul {
     position: relative;
     font-size: 14px;
     font-weight: 500;
-    text-transform: capitalize;
     color: #555;
     padding: 5px 10px;
 }
@@ -2024,7 +2010,6 @@ ul {
 
 .post-detail__title {
     font-size: 25px;
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -2045,13 +2030,11 @@ ul {
     display: inline-block;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 12px;
-    text-transform: uppercase;
     color: #ff594f;
     margin-bottom: 0;
 }
 
 .post-detail__meta {
-    text-transform: capitalize;
     font-size: 12px;
     margin-bottom: 40px;
 }
@@ -2096,13 +2079,8 @@ ul {
     background-color: #fff;
 }
 
-.post__body .md-btn {
-    text-transform: capitalize;
-}
-
 .post__title {
     font-size: 18px;
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -2114,7 +2092,6 @@ ul {
 }
 
 .post__meta {
-    text-transform: capitalize;
     font-size: 12px;
     margin-bottom: 10px;
 }
@@ -2138,7 +2115,6 @@ ul {
 
 .progress__title {
     font-size: 14px;
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -2213,7 +2189,6 @@ ul {
 .title__title {
     font-size: 25px;
     font-weight: bold;
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -2247,7 +2222,6 @@ ul {
 .work-detail__title {
     font-size: 25px;
     line-height: 1;
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -2267,19 +2241,16 @@ ul {
 .work-detail__cat {
     display: inline-block;
     font-family: 'Noto Sans KR', sans-serif;
-    text-transform: uppercase;
     color: #333;
     margin-bottom: 5px;
 }
 
 .work-detail__text {
     font-size: 14px;
-    text-transform: capitalize;
     margin-bottom: 30px;
 }
 
 .work-detail__meta {
-    text-transform: capitalize;
     font-size: 12px;
     margin-bottom: 40px;
 }
@@ -2320,7 +2291,6 @@ ul {
 
 .work__title {
     font-size: 18px;
-    text-transform: uppercase;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
@@ -2813,7 +2783,6 @@ ul {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 12px;
     font-weight: 700;
-    text-transform: uppercase;
     color: #333;
     margin-bottom: 20px;
 }

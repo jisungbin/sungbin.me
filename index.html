@@ -7,9 +7,9 @@
     <meta content="telephone=no" name="format-detection">
     <meta content="yes" name="apple-mobile-web-app-capable">
 
-    <link href="assets/img/favicon.ico" rel="shortcut icon">
-    <link href="assets/img/favicon.ico" rel="icon">
-    <link href="assets/fonts/fontawesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/images/favicon.ico" rel="shortcut icon">
+    <link href="assets/images/favicon.ico" rel="icon">
+    <link href="assets/fonts/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="assets/fonts/pe-icon/pe-icon.css" rel="stylesheet" type="text/css">
     <link href="assets/vendors/bootstrap/grid.css" rel="stylesheet" type="text/css">
     <link href="assets/vendors/magnific-popup/magnific-popup.min.css" rel="stylesheet" type="text/css">
@@ -18,6 +18,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700"
           rel="stylesheet" type="text/css">
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -29,7 +31,7 @@
 
     <header class="header header--fixed">
         <div class="header__inner">
-            <div class="header__logo"><a href="index.html"><img alt="" src="assets/img/logo.png" style="width: 122px;"/></a>
+            <div class="header__logo"><a href="index.html"><img alt="" src="assets/images/logo.png" style="width: 122px;"/></a>
             </div>
             <div class="navbar-toggle" id="fs-button">
                 <div class="navbar-icon"><span></span></div>
@@ -74,7 +76,7 @@
                 <div class="row">
                     <div class="col-lg-6 ">
                         <div class="title">
-                            <h2 class="title__title">Dashboard</h2>
+                            <h2 class="title__title">추천</h2>
                         </div>
                     </div>
                 </div>
@@ -86,14 +88,15 @@
                         <div class="grid-item">
                             <div class="grid-item__inner">
                                 <div class="grid-item__content-wrapper">
-                                    <div class="work"><a href="work-detail.html">
-                                        <div class="hoverbox ef-slide-bottom light">
+                                    <div class="work"><a href="docs/androidutils.html">
+                                        <div class="hoverbox ef-slide-top light">
                                             <div class="hb_front"><img alt=""
-                                                                       src="https://images.pexels.com/photos/807034/pexels-photo-807034.jpeg?w=1260&amp;h=750&amp;auto=compress&amp;cs=tinysrgb"/>
+                                                                       src="https://raw.githubusercontent.com/sungbin5304/AndroidUtils/master/banner.png"/>
                                             </div>
+
                                             <div class="hb_back">
-                                                <h2 class="work__title">The Myth of Ugly Design</h2><span
-                                                    class="work__text">View detail</span>
+                                                <h2 class="work__title">AndroidUtils</h2><span
+                                                    class="work__text">🔥 Powerful Utils for Android 🔥</span>
                                             </div>
                                         </div>
                                     </a>
@@ -105,7 +108,7 @@
                     </div>
                 </div>
                 <div class="awe-text-center mt-50">
-                    <a class="md-btn md-btn--outline-primary" href="#">더보기
+                    <a class="md-btn md-btn--outline-primary" onclick="Swal.fire('상단 메뉴를 눌러서 원하시는 카테고리로 이동해 주세요.')">더보기
                     </a>
                 </div>
             </div>

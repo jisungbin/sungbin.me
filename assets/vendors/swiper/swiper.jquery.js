@@ -3778,7 +3778,7 @@
                 if (!z.gesture.slide || !z.gesture.slide.length) {
                     z.gesture.slide = $(this);
                     if (z.gesture.slide.length === 0) z.gesture.slide = s.slides.eq(s.activeIndex);
-                    z.gesture.image = z.gesture.slide.find('img, svg, canvas');
+                    z.gesture.image = z.gesture.slide.find('images, svg, canvas');
                     z.gesture.imageWrap = z.gesture.image.parent('.' + s.params.zoomContainerClass);
                     z.gesture.zoomMax = z.gesture.imageWrap.attr('data-swiper-zoom') || s.params.zoomMax;
                     if (z.gesture.imageWrap.length === 0) {
@@ -3966,7 +3966,7 @@
                 var z = s.zoom;
                 if (!z.gesture.slide) {
                     z.gesture.slide = s.clickedSlide ? $(s.clickedSlide) : s.slides.eq(s.activeIndex);
-                    z.gesture.image = z.gesture.slide.find('img, svg, canvas');
+                    z.gesture.image = z.gesture.slide.find('images, svg, canvas');
                     z.gesture.imageWrap = z.gesture.image.parent('.' + s.params.zoomContainerClass);
                 }
                 if (!z.gesture.image || z.gesture.image.length === 0) return;

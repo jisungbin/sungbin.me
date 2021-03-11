@@ -258,7 +258,7 @@
             if (!nodeType || !elementNodeTypes[nodeType]) {
                 return;
             }
-            var childImgs = elem.querySelectorAll('img');
+            var childImgs = elem.querySelectorAll('images');
             // concat childElems to filterFound array
             for (var i = 0; i < childImgs.length; i++) {
                 var img = childImgs[i];
