@@ -9,15 +9,17 @@
 
     <link href="assets/images/favicon.ico" rel="shortcut icon">
     <link href="assets/images/favicon.ico" rel="icon">
-    <link href="assets/fonts/fontawesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="assets/fonts/pe-icon/pe-icon.css" rel="stylesheet" type="text/css">
     <link href="assets/vendors/bootstrap/grid.css" rel="stylesheet" type="text/css">
     <link href="assets/vendors/magnific-popup/magnific-popup.min.css" rel="stylesheet" type="text/css">
     <link href="assets/vendors/swiper/swiper.css" rel="stylesheet" type="text/css">
     <link href="assets/css/main.css" id="app-stylesheet" rel="stylesheet" type="text/css">
 
-    <link href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700"
+          rel="stylesheet" type="text/css">
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -27,7 +29,6 @@
 <body>
 <div class="page-wrap" id="root">
 
-    <!-- header -->
     <header class="header header--fixed">
         <div class="header__inner">
             <div class="header__logo"><a href="index.html"><img alt="" src="assets/images/logo.png" style="width: 122px;"/></a>
@@ -37,30 +38,18 @@
             </div>
         </div>
 
-        <!-- fullscreenmenu__module -->
         <div class="fullscreenmenu__module" trigger="#fs-button">
-
-            <!-- overlay-menu -->
             <nav class="overlay-menu">
-
-                <!--  -->
                 <ul class="wil-menu-list">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li><a href="about.html">About</a>
-                    </li>
-                    <li><a href="work.html">Work</a>
-                    </li>
-                    <li class="current-menu-item"><a href="blog.html">Blog</a>
-                    </li>
-                    <li><a href="contact.html">Contact</a>
-                    </li>
-                </ul><!--  -->
-
-            </nav><!-- End / overlay-menu -->
-
-        </div><!-- End / fullscreenmenu__module -->
-
+                    <li class="current-menu-item"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header><!-- End / header -->
 
     <!-- Content-->
