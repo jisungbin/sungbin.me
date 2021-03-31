@@ -41,87 +41,181 @@
 <body class="cover-container">
 <div class="cover-scroll">
     <section class="cover main">
-        <p class="title text-center">성빈이가 프로그래머가 되기 위해<br/>노력한 흔적들을 기록하는 곳</p>
-        <a class="btn_scroll_down_container footer" href="#main"><p class="text-down-arrow">˅</p></a>
-    </section>
-
-    <section class="cover" id="main">
-        <div style="width: 100%; height: 100%">
-            <nav class="navbar navbar-expand-md navbar-light" style="height: 60px; width: 100%;">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">성빈!</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active">블로그</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">프로젝트</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">성빈에 대해</a>
-                            </li>
-                         </ul>
-                        <form class="d-flex" style="height: 45px;">
-                            <input class="form-control me-2" type="search" placeholder="검색할 내용 입력" aria-label="Search"/>
-                            <button class="btn btn-outline-secondary" type="submit" style="width: 75px;">검색</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-
-            <div style="padding: 52px;">
-                <div class="container">
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-auto" style="padding: 16px;">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Jetpack Compose에서 by remember 사용하기</h5>
-                                    <h6 class="card-subtitle mb-3 text-muted">compose</h6>
-                                    <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
-                                    <a class="card-link">자세히 보기</a>
-                                    <a class="card-link">공유 하기</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-auto" style="padding: 16px;">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">ㅁㅁㅁㅁ</h5>
-                                    <h6 class="card-subtitle mb-3 text-muted">compose</h6>
-                                    <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
-                                    <a class="card-link">자세히 보기</a>
-                                    <a class="card-link">공유 하기</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-auto" style="padding: 16px;">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">테스트입니다</h5>
-                                    <h6 class="card-subtitle mb-3 text-muted">compose</h6>
-                                    <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
-                                    <a class="card-link">자세히 보기</a>
-                                    <a class="card-link">공유 하기</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light"
+             style="height: 60px; width: 100%; z-index: 9999; background-color: white; opacity: 0.95;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">성빈!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto" style="background-color: white;">
+                        <li class="nav-item">
+                            <a class="nav-link active">블로그</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">프로젝트</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">성빈에 대해</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text"
+                          style="padding-right: 8px; background-color: white;">
+                            sungbin.me &copy; 2021 <a href="https://sungb.in">ji sungbin</a>. all rights reserved.
+                        </span>
+                    <form class="d-flex" style="height: 45px;">
+                        <input class="form-control me-2" type="search" placeholder="검색할 내용 입력" aria-label="Search"/>
+                        <button class="btn btn-outline-secondary" type="submit" style="width: 75px;">검색</button>
+                    </form>
                 </div>
             </div>
+        </nav>
 
+        <p class="title text-center">성빈이가 프로그래머가 되기 위해<br/>노력한 흔적들을 기록하는 곳</p>
+        <a class="btn_scroll_down_container footer" href="#main" style="margin-bottom: 20px;"><p
+                class="text-down-arrow">˅</p></a>
+    </section>
+
+    <section id="main" style="height: 100%; padding: 52px;">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jetpack Compose에서 by remember 사용하기</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ㅁㅁㅁㅁ</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">테스트입니다</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">테스트입니다</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">테스트입니다</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">테스트입니다</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">테스트입니다</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">테스트입니다</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">테스트입니다</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">테스트입니다</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-auto" style="padding: 16px;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">테스트입니다</h5>
+                            <h6 class="card-subtitle mb-3 text-muted">compose</h6>
+                            <p class="card-text">미리보기) ...getValue 임폴트 추가</p>
+                            <a class="card-link">자세히 보기</a>
+                            <a class="card-link">공유 하기</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-        <p class="footer copyright text-center" style="width: 100%; margin-bottom: 8px;">
-            sungbin.me &copy; 2021 <a href="https://sungb.in">ji sungbin</a>. all rights reserved.
-        </p>
     </section>
 </div>
 
