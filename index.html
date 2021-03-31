@@ -18,14 +18,50 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"/>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
 </head>
+
+<style>
+    a:hover, a:focus {
+        text-decoration: none;
+        outline: none;
+        color: darkgray;
+    }
+</style>
 
 <body>
 
-<div style="background: #fafafa; display: flex; justify-items: center; height: 100vh; align-items: center; padding: 52px;">
-    <p style="margin: 0 auto; text-align: center;" data-type="title">성빈이가 프로그래머가 되기 위해<br/>노력한 흔적들을 기록하는 곳</p>
-</div>
+<section style="background: #fafafa; height: 100vh;" id="cover">
+    <div class="cover">
+        <p style="margin: 0 auto; text-align: center; color: black" data-type="title">성빈이가 프로그래머가 되기 위해<br/>노력한 흔적들을
+            기록하는 곳</p>
+        <a class="btn_scroll_down_container" href="#main" style="margin-bottom: 50px; position: absolute; bottom: 0;"><p
+                class="text-down-arrow">˅</p></a>
+    </div>
+</section>
+
+<section style="background: blue; height: 100vh;" id="main">
+    <div class="cover">
+
+    </div>
+</section>
+
+<script>
+    let isScrolling = false;
+    $(window).scroll((event) => {
+        isScrolling = true;
+    });
+
+    setInterval(function () {
+        if (isScrolling) {
+            console.log('aaa')
+            isScrolling = false;
+        }
+    }, 250);
+</script>
 
 </body>
 
