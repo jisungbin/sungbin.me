@@ -14,14 +14,15 @@
     <meta content="https://github.com/jisungbin/sungbin.me/blob/master/assets/images/sungbin_with_mac.png?raw=true"
           property="og:image"/>
 
+    <link rel="icon" href="./assets/images/favicon.ico">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+
     <link rel="stylesheet" href="./assets/css/main.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-    <script src="./assets/js/main.js"></script>
 </head>
 
 <style>
@@ -30,38 +31,29 @@
         outline: none;
         color: darkgray;
     }
+
+    body {
+        font-family: 'Nanum Gothic', sans-serif;
+        overflow: hidden;
+        -webkit-font-smoothing: antialiased;
+    }
 </style>
 
-<body>
-
-<section style="background: #fafafa; height: 100vh;" id="cover">
-    <div class="cover">
-        <p style="margin: 0 auto; text-align: center; color: black" data-type="title">성빈이가 프로그래머가 되기 위해<br/>노력한 흔적들을
+<body class="cover-container">
+<div class="cover-scroll">
+    <section class="cover" id="main">
+        <p class="title" style="margin: 0 auto; text-align: center; color: black">성빈이가 프로그래머가 되기
+            위해<br/>노력한 흔적들을
             기록하는 곳</p>
-        <a class="btn_scroll_down_container" href="#main" style="margin-bottom: 50px; position: absolute; bottom: 0;"><p
-                class="text-down-arrow">˅</p></a>
-    </div>
-</section>
+        <a class="btn_scroll_down_container" href="#blog" style="margin-bottom: 50px; position: absolute; bottom: 0;">
+            <p class="text-down-arrow">˅</p>
+        </a>
+    </section>
 
-<section style="background: blue; height: 100vh;" id="main">
-    <div class="cover">
-
-    </div>
-</section>
-
-<script>
-    let isScrolling = false;
-    $(window).scroll((event) => {
-        isScrolling = true;
-    });
-
-    setInterval(function () {
-        if (isScrolling) {
-            console.log('aaa')
-            isScrolling = false;
-        }
-    }, 250);
-</script>
+    <section class="cover" id="blog">
+        asd
+    </section>
+</div>
 
 </body>
 
