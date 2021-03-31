@@ -72,6 +72,10 @@ section {
     0% {
         margin-top: 0;
     }
+    5% {
+    }
+    10% {
+    }
     100% {
         margin-top: 5px;
     }
