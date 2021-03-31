@@ -6,6 +6,12 @@
     height: 100%;
 }
 
+.footer {
+    margin-bottom: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
 .cover {
     position: relative;
     width: 100%;
@@ -34,6 +40,12 @@ section {
 
 .title {
     font-size: calc(1rem + 2vw);
+}
+
+.text-center {
+    margin: 0 auto;
+    text-align: center;
+    color: black
 }
 
 .btn_scroll_down_container {
