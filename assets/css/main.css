@@ -11,18 +11,25 @@
     width: 100%;
     height: 100%;
     display: flex;
+    overflow: hidden;
+}
+
+.cover.main {
     align-items: center;
     align-self: center;
     justify-content: center;
     flex-direction: column;
     padding: 52px;
-    overflow: hidden;
 }
 
 .cover-scroll {
     position: relative;
     width: 100%;
     height: 100%;
+}
+
+section {
+    scroll-behavior: smooth;
 }
 
 .title {
