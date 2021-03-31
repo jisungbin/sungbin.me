@@ -1,10 +1,2 @@
 # [sungbin.me](https://sungbin.me)
-
-> Dev Blog
-
-## Content
-
-1. About me
-2. My projects
-3. Dev Blog
-4. Contact to me
+> 이제 슬슬 웹도 잘해질 때 됐잖아?
